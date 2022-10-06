@@ -53,7 +53,7 @@ $(document).ready(function(){
 		                	$('#addModal').modal('hide');
 		                    Swal.fire('Success', 'Textbook Added', 'success');
 		                    getAllData();
-		                    $('.btn-update-textbook').html('Save');
+		                    $('.btn-save-textbook').html('Save');
 	                	}, 2000);
 
 	                }
